@@ -16,16 +16,17 @@ body {
     flex-direction: column;
     
     .hamburger-menu-links-container {
+        display: none;
         background-color: rgb(15, 15, 15);
         position: absolute;
         top: 0;
         height: 100vh;
         width: 100%;
         z-index: 2;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // flex-direction: column;
         left: 100%;
     
         .hamburger-menu-exit-container {
@@ -103,6 +104,10 @@ body {
     
     .hamburger-menu-links-container.slide-in {
         animation: right-to-left .4s ease-out forwards;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
     
     .hamburger-menu-links-container.slide-out {
@@ -735,6 +740,10 @@ body {
 }
 
 @media (max-width: 750px) {
+    html {
+        overflow-x: hidden;
+    }
+
     .navigation-bar-right-container {
         display: none !important;
     }
