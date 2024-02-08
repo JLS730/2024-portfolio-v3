@@ -233,6 +233,9 @@ body .portfolio-section .introduction-section .right-and-bottom-container .intro
   padding: 4em 0;
   height: 1px;
 }
+body .portfolio-section .introduction-section .right-and-bottom-container .introduction-call-to-action-container a {
+  text-decoration: none;
+}
 body .portfolio-section .introduction-section .right-and-bottom-container .introduction-call-to-action-container i {
   font-size: 2.2em;
   margin-right: 1em;
@@ -283,9 +286,6 @@ body .portfolio-section .projects-section .projects-section-header {
   text-decoration-thickness: 4px;
   padding: 1.5em 0.2em;
   width: 100%;
-}
-body .portfolio-section .projects-section .projects-container {
-  width: 90%;
 }
 body .portfolio-section .projects-section .project-cards {
   display: flex;
